@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background_tombol"
+            android:onClick="tampilkanPesan"
+            android:text="Pesan"
+            android:textAllCaps="false"
+            android:textColor="@color/warnatulisantombol"
+            android:textSize="@dimen/ukuranHurufTombol" />
+
+        <Button
+            android:id="@+id/btPesanDua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/background_tombol"
+            android:onClick="tampilkanPesan2"
+            android:text="Pesan Dua"
+            android:textAllCaps="false"
+            android:textColor="@color/warnatulisantombol"
+            android:textSize="@dimen/ukuranHurufTombol" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Namamu"
+            android:textAllCaps="false"
+            android:textSize="@dimen/ukuranHurufTombol" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Masukin nama kamu disini" />
+
+        <Button
+            android:id="@+id/btTampilNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/background_tombol"
+            android:text="Tampilkan Nama"
+            android:textAllCaps="false"
+            android:textColor="@color/warnatulisantombol"
+            android:textSize="@dimen/ukuranHurufTombol" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Bilangan Pertama"
+            android:textSize="@dimen/ukuranHurufTombol" />
+
+        <EditText
+            android:id="@+id/etBill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Masukin bilangan pertama" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Bilangan Dua"
+            android:textSize="@dimen/ukuranHurufTombol" />
+
+        <EditText
+            android:id="@+id/etBill2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Masukin bilangan kedua" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Hasil"
+            android:textSize="@dimen/ukuranHurufTombol" />
+
+        <EditText
+            android:id="@+id/etHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hasil ngitung" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btTambah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/background_tombol"
+                android:onClick="tambah"
+                android:text="Tambah"
+                android:textAllCaps="false"
+                android:textColor="@color/warnatulisantombol"
+                android:textSize="@dimen/ukuranHurufTombol" />
+
+            <Button
+                android:id="@+id/btKurang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/background_tombol"
+                android:onClick="kurang"
+                android:text="Kurang"
+                android:textAllCaps="false"
+                android:textColor="@color/warnatulisantombol"
+                android:textSize="@dimen/ukuranHurufTombol" />
+
+            <Button
+                android:id="@+id/btKali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/background_tombol"
+                android:onClick="kali"
+                android:text="Kali"
+                android:textAllCaps="false"
+                android:textColor="@color/warnatulisantombol"
+                android:textSize="@dimen/ukuranHurufTombol" />
+
+            <Button
+                android:id="@+id/btBagi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/background_tombol"
+                android:onClick="bagi"
+                android:text="Bagi"
+                android:textAllCaps="false"
+                android:textColor="@color/warnatulisantombol"
+                android:textSize="@dimen/ukuranHurufTombol" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
