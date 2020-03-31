@@ -115,7 +115,6 @@
                 android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 android:background="@color/background_tombol"
-                android:onClick="tambah"
                 android:text="Tambah"
                 android:textAllCaps="false"
                 android:textColor="@color/warnatulisantombol"
@@ -129,7 +128,6 @@
                 android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 android:background="@color/background_tombol"
-                android:onClick="kurang"
                 android:text="Kurang"
                 android:textAllCaps="false"
                 android:textColor="@color/warnatulisantombol"
@@ -143,7 +141,6 @@
                 android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 android:background="@color/background_tombol"
-                android:onClick="kali"
                 android:text="Kali"
                 android:textAllCaps="false"
                 android:textColor="@color/warnatulisantombol"
@@ -157,11 +154,63 @@
                 android:layout_marginTop="8dp"
                 android:layout_weight="1"
                 android:background="@color/background_tombol"
-                android:onClick="bagi"
                 android:text="Bagi"
                 android:textAllCaps="false"
                 android:textColor="@color/warnatulisantombol"
                 android:textSize="@dimen/ukuranHurufTombol" />
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btWhile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/background_tombol"
+                android:text="While"
+                android:textAllCaps="false"
+                android:textColor="@color/warnatulisantombol"
+                android:textSize="@dimen/ukuranHurufTombol" />
+
+            <Button
+                android:id="@+id/btDoWhile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/background_tombol"
+                android:text="Do .. While"
+                android:textAllCaps="false"
+                android:textColor="@color/warnatulisantombol"
+                android:textSize="@dimen/ukuranHurufTombol" />
+
+            <Button
+                android:id="@+id/btFor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1"
+                android:background="@color/background_tombol"
+                android:text="For"
+                android:textAllCaps="false"
+                android:textColor="@color/warnatulisantombol"
+                android:textSize="@dimen/ukuranHurufTombol" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvLoop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="@dimen/ukuranHurufTombol" />
+
     </LinearLayout>
 </ScrollView>
